@@ -49,7 +49,7 @@ namespace MathGame
                 }
 
                 Console.WriteLine($"{nums[0]} {op[opVal]} {nums[1]} = ?");
-                
+
                 var userAns = Console.ReadLine();
 
                 if (userAns == "q") // Quit playing
@@ -73,7 +73,7 @@ namespace MathGame
                     score[1]++;
                     Console.WriteLine($"Incorrect! Your score: {score[0]}-{score[1]}\n");
                 }
-            } 
+            }
         }
     }
 }
